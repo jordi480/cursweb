@@ -1,0 +1,99 @@
+
+body{
+	
+	background-color:rgb(255, 255, 255); 
+}
+
+
+
+
+
+html,body,div#pantalla {
+
+	width: 98%;
+	
+
+	}
+
+	div#capçalera {
+		background-color: rgb(255, 255, 255);
+		width: 99%;
+		border: 1px solid rgb(7, 31, 7);
+        padding: 1em;
+        margin-bottom: 1em;
+		
+		
+	}
+	div#menu {
+        background-color: rgb(209, 203, 203);
+		width: 20%;
+		
+		padding: 0.5em;
+		margin: 0.5em ;
+		float: left;
+	}
+	div#mur {
+        background-color: rgb(209, 203, 203);
+		overflow: hidden;
+		width: 50%;
+		
+		padding: 0.5em;
+		margin: 0.5em ;
+		float: left;
+	}
+	div#lateral {
+        font-family: 'Lucida Sans';
+		background-color: rgba(209, 203, 203);
+		width: 20%;	
+		
+		padding: 0.5em;
+		margin: 0.5em ;
+		float: right;	
+	}
+	div#peu {
+		background-color: rgb(209, 203, 203);
+		width: 99%;	
+		
+		padding: 5px;
+        margin-top: 0.5em;
+		clear: both;
+	}    
+    div#textTorrent{
+        font-family: 'Lucida Sans';
+        position: relative;
+
+        }
+    .politic{
+        padding: 3px;
+		margin: 3px;
+    float: left;
+    }
+
+    div#textZuck{
+        font-family: 'Lucida Sans';
+        position: relative;
+
+        }
+    .informatic{
+        padding: 3px;
+		margin: 3px;
+    float: left;
+    }
+
+
+    div#textTxa{
+        font-family: 'Lucida Sans';
+        position: relative;
+
+        }
+    .music{
+        padding: 3px;
+		margin: 3px;
+    float: left;
+    }
+
+    div#peu {
+        font-family: 'Lucida Sans';
+    }
+	
+	

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Títol del document</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+	</head>
+	<body>
+			<fieldset >
+					<legend><h1>Omple el teu CV</h1></legend>		
+	
+		<form name"primer"
+			action=http://daw.iesjoaquimmir.cat/sarti.php mehod="post">
+
+			<label for="idnom">Nom</label><br>
+			<input id="idnom" name="nom" type="text" maxlength="30"size="30"/><br>
+			<label for="idcognom">Cognom</label><br>
+			<input id="idcognom" name="cognom" type="text" maxlength="60" size="60"><br>
+			<label for="idpass">Contrasenya</label><br>
+			<input id="idpass"  name="contrasenya" type="text" maxlength="10" size="10"/><br>
+			<label for="iddni">DNI</label><br>
+			<input id="iddni" name="dni"type="text" maxlength="9" size="9"/><br><br>
+			<input name="sexe" type="radio" value="home"/>Home<br>
+			<input name="sexe" type="radio" value="dona"/>Dona<br><br>
+			<label for="idfoto">Incloure la foto:</label>	
+			<input name="imatge" type="file"/><br><br>
+			<input id="idsubscriure" type="checkbox" checked="checked"/>
+			<label for="idsubscriure">Subscriure's al bulletí de novetats</label><br><br>
+			<button type="submit" name="guardarCanvis">Guardar canvis</button>
+			
+			<input  type="reset">
+			</fieldset>
+
+	
+
+
+</form><br>
+
+<hr><br>
+
+<form name"primer"
+			action=http://daw.iesjoaquimmir.cat/sarti.php mehod="post">
+			<fieldset>
+				<legend><h1>Dades del producte</h1></legend>
+				<label for="idNomdelproducte">Nom del producte</label><br>
+				<textarea id="idNomdelproducte" name="nomdelproducte" rows="4" cols="30" ></textarea><br><br>
+				<button type="submit" name="guardarCanvis" >Guardar canvis</button>
+				
+				<input  type="reset">
+			</fieldset>
+
+
+</form><br><br>
+<hr><br>
+
+
+<form name"primer"
+			action=http://daw.iesjoaquimmir.cat/sarti.php mehod="post">
+<fieldset>
+			<legend><h1>Omple el teu CV</h1></legend>
+ <fieldset >
+ <legend>Provincia:</legend>
+			
+			<select name="provincies">
+				<optgroup label="provincies">
+					<option value="-1"></option>
+					<option>Barcelona</option>
+					<option>Tarragona</option>
+					<option>Lleida</option>
+					<option>Girona</option>
+				</optgroup>
+			</select> <br><br>
+
+			<label for="iddia">Data de naixement</label><br>
+			<input id="iddia" name="dia" type="text" maxlength="2"size="2" pattern="[0-9]{2}"/>de
+			<select name="mesos">
+					<optgroup label="mesos">
+						<option value="-1"></option>
+						<option>Gener</option>
+						<option>Febrer</option>
+						<option>Març</option>
+						<option>Abril</option>
+						<option>Maig</option>
+						<option>Juny</option>
+						<option>Juliol</option>
+						<option>Agost</option>
+						<option>Setembra</option>
+						<option>Octubre</option>
+						<option>Novembre</option>
+						<option>Decembre</option>
+					</optgroup>
+				</select><br><br>
+				<label for="idtemes">Temes d'interès</label><br>
+				<textarea id="idtemes" name="nomdelproducte" rows="4" cols="30" ></textarea><br><br>
+
+			
+				<button type="submit" name="guardarCanvis" >Guardar canvis</button>
+			
+			<input  type="reset">
+
+ </fieldset>
+
+		</fieldset>
+
+
+</form><br><br>
+
+<hr><br><br>
+
+<form name"primer"
+			action=http://daw.iesjoaquimmir.cat/sarti.php mehod="post">
+			<fieldset>
+					<legend><h1>Informació sobre el producte</h1></legend>
+			
+ <fieldset>
+ <legend>Dades Bàsiques:</legend>
+			 <label for="idNom">Nom</label><br>
+ 			 <input id="idnom" name="nom" pattern="[a-z]{10}" type="text" maxlength="20"size="20"/><br>
+
+			
+			
+
+			<label for="iddescripció">Descripció</label><br>
+ 			
+			<textarea id="iddescripció" name="nomdelproducte" rows="4" cols="30" ></textarea><br><br>
+
+			<label for="idfoto">Foto:</label>	
+			<input name="imatge" type="file"/>
+
+			
+			
+		</fieldset>
+		
+		<fieldset>
+				<legend>Dades econòmiques:</legend>
+							<label for="idPreu">Preu</label>
+							 <input id="idnPreu" name="Preu" type="text" maxlength="5"size="5"pattern="[0-9]{5}"/>
+							 <label for="iddia">Impostos</label>
+							 <select name="Dades Personals">
+									<optgroup label="provincies">
+										<option value="-1"></option>
+										<option>4%</option>
+										<option>7%</option>
+										<option>18%</option>
+										<option>21%</option>
+										<option>26%</option>
+																				
+									</optgroup>
+								</select><br>
+							<fieldset >		
+										<legend>Promoció</legend>
+							<input name="promocio" type="radio" value="cap"/>cap<br>
+							<input name="promocio" type="radio" value="gratuit"/>Gratuit<br>
+							<input name="promocio" type="radio" value="descompte"/>Descompte 5%<br><br>
+								</fieldset><br><br>
+
+			   
+						   
+						   
+			   
+						   
+							
+								<button type="submit" name="guardarCanvis" >Guardar canvis</button>
+			
+								<input  type="reset">
+					   
+						   
+			   
+						   
+						   
+					   </fieldset>
+			</fieldset>
+
+
+</form><br><br>
+
+
+	</body>
+
+</html>

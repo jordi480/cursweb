@@ -1,0 +1,121 @@
+
+body{
+	
+	background-color:rgb(255, 255, 255); 
+}
+
+
+
+
+
+html,body,div#pantalla {
+
+	width: 98%;
+	
+
+	}
+
+	div#capçalera {
+	
+		border: 1px solid rgb(7, 31, 7);
+        padding: 1em;
+        margin-bottom: 1em;
+		
+		
+	}
+	div#menu {
+		width: 20%;
+		border-bottom-style: solid;
+		border-bottom-color: blue;	
+       	padding: 0.5em;
+		margin: 0.5em ;
+		float: left;
+	}
+	div#mur {
+        overflow: hidden;
+		width: 50%;
+		padding: 0.5em;
+		margin: 0.5em ;
+		float: left;
+	}
+	div#lateral {
+        font-family: 'Lucida Sans';
+		width: 20%;	
+		border: 1px solid #CC6600;
+		padding: 0.5em;
+		margin: 0.5em ;
+		float: right;	
+	}
+	div#peu {
+		border-bottom: 1px solid rgb(7, 31, 7);
+		padding: 5px;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		border-bottom-style: solid 1px;
+		border-bottom-color: #C5C5C5;
+		border-top-style: solid  ;
+		border-top-color: #C5C5C5;	
+		clear: both;
+	}   
+	div#sotaCapçalera {
+		border: 1px solid rgb(7, 31, 7);
+		padding: 5px;
+        margin-top: 0.5em;
+		
+	}    
+	div#publicitat {
+		border-color: #C5C5C5;	
+		border: 1px dashed rgb(7, 31, 7);
+		padding: 5px;
+        margin-top: 0.5em;
+		
+	}     
+    div#textTorrent{
+        font-family: 'Lucida Sans';
+        position: relative;
+
+        }
+    .politic{
+        padding: 3px;
+		margin: 3px;
+    float: left;
+    }
+
+    div#textZuck{
+        font-family: 'Lucida Sans';
+        position: relative;
+
+        }
+    .informatic{
+        padding: 3px;
+		margin: 3px;
+    float: left;
+    }
+
+
+    div#textTxa{
+        font-family: 'Lucida Sans';
+        position: relative;
+
+        }
+    .music{
+        padding: 3px;
+		margin: 3px;
+    float: left;
+    }
+
+    div#peu {
+        font-family: 'Lucida Sans';
+	}
+	
+	.logo{
+
+		width: 100px;
+		height:50px;
+	}
+	
+	
+	div#buscar{
+
+		float: right ;
+	}

@@ -1,0 +1,21 @@
+h1#titulo,div#adicional a  {color :#216d34;}
+h2#subtitulo,a em,caption{color: #0a34ee;}
+p strong,a,tbody th, tfoot th{color: rgb(216, 19, 19);}
+span.especial{color: rgb(223, 82, 223);}
+span.destacado,.especial, td strong{color: rgb(233, 172, 40)}
+ tbody td{color:#1fbe47;}
+ table {
+    border-collapse: collapse;
+ }
+ table, th, td {
+    border: 2px solid black;
+    padding: 5px;
+ }
+ div#adicional{color:rgb(145, 175, 100);}
+
+ span#especial {color: rgb(201, 42, 201);}
+ 
+
+
+
+

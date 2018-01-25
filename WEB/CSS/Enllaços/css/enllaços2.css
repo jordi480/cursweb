@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+
+ 
+    margin: 5px;
+    border: 1px solid black;
+    width: 10%;
+   
+
+    
+}
+
+ul li{ 
+
+    border-bottom: 1px solid black;
+    list-style-image: url(../imatges/fletxa.png);
+
+}
+
+li:hover{
+    list-style-image: url(../imatges/fletxa1.png);}
+    
+
+
+

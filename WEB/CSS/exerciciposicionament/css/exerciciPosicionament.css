@@ -1,0 +1,114 @@
+
+body{ background-color:rgb(243, 198, 233);}
+*{
+
+    margin:.3%;
+        box-sizing: border-box;
+}
+
+div#enllaços{
+ width: 10%;
+ background-color: yellow;
+ border:  black solid 2px ;
+padding: 2px;
+ margin: 1em;
+ float: left;   
+}
+
+div#centre{
+border-width:5px; 
+border-style: dotted;
+border-color: darkgreen;
+
+width: 50%;
+background-color: rgb(117, 224, 198);
+padding: 2px;
+margin: 1em;
+margin-left: 25px;
+float: left;
+}
+
+div#marca{
+    background-color:white;
+    border: 1px solid blueviolet;
+    width: 32%; 
+    clear: both ;
+    float: left;
+    
+    
+
+
+}
+div#as{
+    background-color:white;
+    width: 32%;
+    border: 1px solid blueviolet;
+    float: left;
+   
+}
+div#sport{
+    background-color:white;
+    border: 1px solid blueviolet;
+    width: 32%;
+    float: left;
+
+}
+div#mundoDeportivo{
+    background-color:white;
+    border: 1px solid blueviolet;
+    width: 32%;
+    float: left;
+
+}
+
+div#peu{
+border-width:5px; 
+border-style: dotted;
+border-color: rgb(13, 12, 80);
+background-color: rgb(255, 139, 104);
+width: 60%;
+clear: both;
+float: right;
+margin-right: 8%;
+
+   
+}
+div#toni{
+background-color: blue;
+position: absolute;
+
+    top: 15px;
+    right: 10px;
+    width: 60%;
+    
+    padding: 10px 0;
+    
+
+}
+div#toni p{
+    line-height: 2;
+    display: inline-block;
+    vertical-align: middle;
+}
+div#wc3{
+
+    width: 30%;
+    float: right;
+}
+.offered{
+
+color: red;
+}
+.left{
+
+    float: left;
+}
+
+.right{
+
+    float: left;
+}
+.as{
+
+    float: right;
+}
