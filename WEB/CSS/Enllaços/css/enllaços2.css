@@ -16,21 +16,27 @@ ul {
     margin: 5px;
     border: 1px solid black;
     width: 10%;
-   
+   padding: 0px;
 
     
 }
 
 ul li{ 
-
+    list-style: none;
     border-bottom: 1px solid black;
-    list-style-image: url(../imatges/fletxa.png);
+    background-repeat: no-repeat; 
+    background-image: url(../imatges/fletxa.png);
 
 }
 
-li:hover{
-    list-style-image: url(../imatges/fletxa1.png);}
-    
+ul li a{
+    padding-left: 20px;
+}
+
+
+ul li:hover{
+    background-color: grey;
+}
 
 
 
