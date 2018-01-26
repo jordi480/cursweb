@@ -24,7 +24,8 @@ p{color: red
 }
 
 form#nom fieldset {
-    
+    border-color: brown;
+    border-radius: 10px;
     float: left;
     width: 30%;
    
