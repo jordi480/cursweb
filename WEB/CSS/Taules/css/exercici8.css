@@ -1,0 +1,55 @@
+table#divises,td,th{   
+    border: solid 1px black;
+    border-collapse: collapse;
+    margin: 0%;
+    padding:1px;
+    
+
+}
+tr:nth-child(2n){
+
+    background-color: blueviolet;
+}
+
+th#euro,th#dolar,th#lliura,th#yen  {background-color: rgb(199, 252, 252);}
+
+ th#euro {
+
+  background-image: url("../imatges/euro.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 0 15px 0 15px;
+}
+th#dolar {
+
+    background-image: url("../imatges/dolar.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0 15px 0 15px;
+  }
+ th#lliura {
+
+    background-image: url("../imatges/libra.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0 15px 0 15px;
+  }
+ th#yen {
+
+    background-image: url("../imatges/yen.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0 15px 0 15px;
+  }
+.yen{
+
+    background-color:lightyellow ;
+  }
+.euro{
+
+    background-color:lightyellow;
+  }
+.cap{
+
+    background-color:lightsteelblue;
+  }
