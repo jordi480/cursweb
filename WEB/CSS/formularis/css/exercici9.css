@@ -1,11 +1,5 @@
 
 
-form#nom{
-
-
-
-}
-
 label{
 
     display: block;
@@ -19,22 +13,160 @@ input[type=text] {
     border-radius: 4px;
     box-sizing: border-box;
 }
-p{color: red
+span {color: red;}
+
+
+
+
+select#pro{
+    
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+}
+select#pai{
+    
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+}
+ div#boto{
+
+    margin-right: 15%;
+ }
+button {
+    
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: right;
+
+
+}
+hr{ 
+    width: 100%;
+    height:10px; 
+    border-radius: 4px; 
+    background-color:#b1abab; 
+    border:none; 
+  }
+
+
+form#nom fieldset {
+    border-style: none;
+    float: left;
+    width: 45%;
+    
+    } 
+form#direccio fieldset { 
+    border-style: none;      
+        float: left;
+        width: 45%;
+      
+        }
+
+
+ form#email fieldset {
+            border-style: none;
+            float: left;
+            width: 45%;
+            }
+form#tel fieldset
+
+{
+    border-style: none;
+     width: 45%;
 
 }
 
-form#nom fieldset {
-    border-color: brown;
-    border-radius: 10px;
+
+div#email{
+    width: 55%;
+   }
+
+div#pa{
+    width: 45%;
     float: left;
-    width: 30%;
-   
-    } 
-form#nom fieldset {
+ 
+}
+
+div#mo{
+
+    width: 45%;
+    float: left;
+}
+
+div#fi{
+
+    width: 45%;
+    float: left;
+}
+
+input#cognom1,input#cognom2,input#email, input#carrer{
+
+    width: 80%;
+}
+
+
+
+input#mun{
+    width: 49%;    
+    float: left;
+           }
+
+input#codi{
+    
+    width: 49%;
+    float: left;
+                
+            } 
+            
+input#prov{
+       
+        width: 49%;
         float: left;
-        width: 30%;
-        }
- form#email fieldset {
-            float: left;
-            width: 30%;
-            }
+                            
+                        }
+                        
+
+input#codi{
+       
+        width: 49%;
+        float: left;
+                                        
+                                    }   
+input#mob{
+       
+    width: 49%;
+    
+               }                
+input#fix{                                                          width: 49%;                                       }                                                                                          
+                                                                                                                                                                   
+ div#cod,div#mu, div#pr, div#pa {
+
+    width:45%;
+    float: left;
+ }
+
+
+label{
+    clear: both
+}
+
+
+
+
+
+
+
+
