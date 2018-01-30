@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html>
+	<head> 
+	   <meta charset="UTF-8">
+       <link href="css/formularisHTML5.css" rel="stylesheet" type="text/css">
+      
+      
+	   
+	   <title> FORMULARIS HTML5</title>
+	   
+	</head>  
+	
+
+	<body> 
+            <form method="post" action="http://daw.iesjoaquimmir.cat/sarti.php" enctype="multipart/form-data">
+
+        <h1>Formulari d'alta</h1>
+
+    <div id="dades">
+
+            <h2>Nom i Cognoms<span>*</span></h2>
+
+        <input id="nom" type="text" placeholder="El teu nom" autofocus></input>
+        <label for="nom">Nom</label>
+        <input id="cognom" type="text" placeholder="el teu cognom"></input>
+        <label for="cognom">Cognom</label>
+        <input id="data" type="date" ></input>
+        <label for="data">Data</label>
+       
+        
+        
+    </div> 
+
+
+    <div id="mesdades">
+        
+            <h2>Més dades<span>*</span></h2>
+
+                     
+            <input id="dni" type="text" placeholder="el teu Dni" pattern="[0-9]{8}[a-zA-Z]{1}"></input>
+            <input type="submit"></input>
+            <label for="dni">DNI</label>
+
+
+    </div>
+
+
+
+    <div id="tlf"> 
+   
+       <input type="tel" placeholder="el teu tel.."></input>
+       <label for="tel">Telèfon</label>
+   
+    </div>
+
+    
+    <div id="prog">
+
+            <progress max=“100” value=“22”></progress>
+            <label for="prog">Progres</label>
+           
+            <meter value="2" min="0" max="10">
+            <label for="meter">Meter</label>
+
+          
+
+    </div>
+
+    <div id="hora">
+
+            <input id="hora"type="time"></input>
+            <label for="hora">Hora</label>
+    </div>
+
+    <div id="mail">
+
+        <input id="mail" type="email"></input>
+        <label for="mail">Email</label>
+       
+    </div>
+    <div id="rang">
+
+            <input id="rang" type="range"></input>
+            <label for="rang">Rang</label>
+        </div>
+		        
+		
+</form>        
+     
+      
+
+
+	</body>
+</html>
+
