@@ -1,0 +1,71 @@
+
+
+li:nth-of-type(1){
+
+  font-size: 10px; 
+  color: blue;
+} 
+li:nth-of-type(2){
+
+    font-size: 20px; 
+    color: rgb(0, 0, 0);
+  } 
+  li:nth-of-type(3){
+
+    font-size: 30px; 
+    color: rgb(0, 0, 0);
+  } li:nth-of-type(4){
+
+    font-size: 40px; 
+    color: rgb(0, 0, 0);
+  } li:nth-of-type(5){
+
+    font-size: 50px; 
+    color: blue;
+  }
+  
+  a[href$=".com"]{
+
+    font-size: 50px; 
+    color: blue;
+  }
+  a[href$=".fr"]{
+
+    font-size: 50px; 
+    color: red;
+  }
+  a[href$=".fr"]:hover{
+
+    font-size: 50px; 
+    color: rgb(94, 67, 67);
+  }
+  a[href$=".cat"]{
+
+    font-size: 50px; 
+    color: yellow;
+  }
+  a[href$=".cat"]:hover{
+
+    font-size: 50px; 
+    color: red;
+  }
+
+  div{
+
+    width: 20%;
+  }
+
+  p:hover:first-letter{
+
+    font-size: 40px;
+  }
+
+  div#parraf{
+    border:black;
+    box-sizing: border-box;
+    width: 50%;
+    border: 35px;
+    border:black;
+    float: left;
+    padding: 5%;
+  }

@@ -1,0 +1,159 @@
+
+body{
+	
+	background-color:rgb(255, 255, 255); 
+}
+
+
+
+
+
+html,body,div#pantalla {
+
+	width: 98%;
+	
+
+	}
+
+	div#capçalera {
+		background-color: rgb(255, 255, 255);
+		width: 99%;
+		border: 1px solid rgb(7, 31, 7);
+        padding: 1em;
+        margin-bottom: 1em;
+		
+		
+	}
+	div#menu {
+        background-color: rgb(209, 203, 203);
+		width: 20%;
+		
+		padding: 0.5em;
+		margin: 0.5em ;
+		float: left;
+	}
+	div#mur {
+        background-color: rgb(209, 203, 203);
+		overflow: hidden;
+		width: 50%;
+		
+		padding: 0.5em;
+		margin: 0.5em ;
+		float: left;
+	}
+	div#lateral {
+        font-family: 'Lucida Sans';
+		background-color: rgba(209, 203, 203);
+		width: 20%;	
+		
+		padding: 0.5em;
+		margin: 0.5em ;
+		float: right;	
+	}
+	div#peu {
+		background-color: rgb(209, 203, 203);
+		width: 99%;	
+		
+		padding: 5px;
+        margin-top: 0.5em;
+		clear: both;
+	}    
+    div#textTorrent{
+        font-family: 'Lucida Sans';
+        position: relative;
+
+        }
+    .politic{
+        padding: 3px;
+		margin: 3px;
+    float: left;
+    }
+
+    div#textZuck{
+        font-family: 'Lucida Sans';
+        position: relative;
+
+        }
+    .informatic{
+        padding: 3px;
+		margin: 3px;
+    float: left;
+    }
+
+
+    div#textTxa{
+        font-family: 'Lucida Sans';
+        position: relative;
+
+        }
+    .music{
+        padding: 3px;
+		margin: 3px;
+    float: left;
+    }
+
+    div#peu {
+        font-family: 'Lucida Sans';
+	}
+	
+ul li{ 
+    list-style: none;
+    border: 1px solid black;
+    background-repeat: no-repeat; 
+    background-image: url(../imatges/fletxa.png);
+    background-color: rgb(165, 250, 250);
+    margin: 3px;
+    float: left;
+}
+
+ul li a{
+    padding-left: 30px;
+   
+}
+
+
+ul li:hover{
+    background-color: rgb(33, 172, 172);
+    background-image: url(../imatges/fletxa1.png);
+}
+
+a[href$=".com"]{
+
+    font-size: 10px; 
+    color: blue;
+  }
+  a[href$=".fr"]{
+
+    font-size: 20px; 
+    color: red;
+  }
+  a[href$=".cat"]{
+
+    font-size: 30px; 
+    color: yellow;
+  }
+
+  p::first-line{
+
+    color: red;
+  }
+
+  p::first-letter{
+    font-size: 150%;  
+    font-style: oblique;
+  }
+
+  div#lateral p:nth-of-type(2n){
+
+    color: brown;
+
+ 
+  }
+
+
+
+
+
+
+	
+	

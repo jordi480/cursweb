@@ -1,0 +1,25 @@
+
+
+li:nth-of-type(1){
+
+  font-size: 10px; 
+  color: blue;
+} 
+li:nth-of-type(2){
+
+    font-size: 20px; 
+    color: rgb(0, 0, 0);
+  } 
+  li:nth-of-type(3){
+
+    font-size: 30px; 
+    color: rgb(0, 0, 0);
+  } li:nth-of-type(4){
+
+    font-size: 40px; 
+    color: rgb(0, 0, 0);
+  } li:nth-of-type(5){
+
+    font-size: 50px; 
+    color: blue;
+  } 
