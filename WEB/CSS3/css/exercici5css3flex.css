@@ -1,0 +1,16 @@
+
+  
+    
+    div#cont2:hover{
+
+
+        opacity: 0.5;
+    }
+
+
+    div{
+        width: 45%;
+        background-color: blueviolet;
+        padding: 2px;
+        margin: 2px;
+    }

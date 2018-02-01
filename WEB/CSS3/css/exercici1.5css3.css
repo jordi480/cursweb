@@ -1,0 +1,23 @@
+
+div{
+
+    margin: 20px;
+}
+
+
+
+div#A{
+
+   width:1200px; 
+   height: 900px;
+ 
+  background: repeating-radial-gradient(red, red 20px,white 20px,white 40px);
+
+  
+  
+    
+    float: left;
+}
+
+
+

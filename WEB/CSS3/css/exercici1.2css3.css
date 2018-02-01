@@ -1,0 +1,118 @@
+
+div{
+
+    margin: 20px;
+}
+
+
+
+div#A{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+    
+    box-shadow: -10px -10px grey; 
+    float: left;
+}
+
+div#B{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;  
+    float: left;
+  
+    box-shadow: -10px -10px 10px grey;
+}
+div#C{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+  
+    box-shadow: -10px -10px 0px 10px grey;
+    float: left;
+}
+div#D{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+  
+    box-shadow: -10px -10px 10px 10px grey;
+    float: left;
+    clear: left;
+}
+div#E{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+ 
+    box-shadow: 0px 0px 10px 1px grey;   
+    float: left;
+    
+   
+}
+div#F{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+    
+    box-shadow: 1px 2px 10px 4px grey;  
+    float: left;
+   
+   
+}
+div#G{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+  
+    box-shadow: 5px 5px 0px 5px grey;
+    float: left;
+}
+
+div#H{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+    
+    box-shadow: -5px -5px 10px 5px grey inset;
+    float: left;
+}
+div#I{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+   
+    box-shadow: -5px -5px 0px 5px grey inset;
+    float: left;
+}
+div#J{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+    box-shadow: -5px -5px 10px 5px grey inset;
+    float: left;
+    clear: left;
+}
+div#K{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+    box-shadow: 0px 0px 10px 1px grey inset;   
+    float: left;
+    
+   
+}
+div#L{
+    width: 300px; 
+    height: 100px;
+    background-color:lightgray;
+    box-shadow: 0px 0px 10px 4px grey inset;   
+
+  
+   
+    float: left;
+   
+   
+}
+
+
