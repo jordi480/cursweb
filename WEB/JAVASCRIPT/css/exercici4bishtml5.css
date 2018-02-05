@@ -1,0 +1,71 @@
+
+body{
+	
+	background-color:rgb(201, 201, 219); 
+}
+
+
+
+
+
+html,body,div#pantalla {
+
+	width: 98%;
+	height: 98%;
+
+	}
+
+	header {
+		background-color: rgb(202, 58, 58);
+		width: 99%;
+		border: 1px solid rgb(7, 31, 7);
+		padding: 5px;
+		margin: 5px;
+		
+	}
+	nav {
+		background-color: rgb(104, 202, 58);
+		width: 20%;
+		height: 20%;
+		border: 1px solid rgb(7, 31, 7);
+		padding: 5px;
+		margin: 5px;
+		float: left;
+	}
+	article {
+		overflow: hidden;
+		background-color: rgb(45, 53, 160);
+		width: 35%;
+		height: 80%;
+		border: 1px solid rgb(7, 31, 7);
+		padding: 5px;
+		margin: 5px;
+		float: left;
+	}
+	aside {
+		background-color: rgba(193, 34, 199, 0.37);
+		height:80%;
+		width: 35%;	
+		border: 1px solid rgb(7, 31, 7);
+		padding: 5px;
+		margin: 5px;
+		float: right;	
+	}
+	footer{
+		background-color: rgb(54, 197, 49);
+		width: 99%;	
+		border: 1px solid rgb(7, 31, 7);
+		padding: 5px;
+		margin: 5px;
+		clear: both;
+	}
+	
+    p { text-align: center}
+    
+    video {
+        
+        width: 90%;
+        height: 90%;
+	}
+
+	
