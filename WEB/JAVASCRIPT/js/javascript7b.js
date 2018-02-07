@@ -14,7 +14,7 @@ while(trobat!=true){
  
     if ( comprovar !=-1){
 
-        alert("el mes existeix");
+        alert("el mes existeix i està a a posició " + comprovar);
         trobat = true;
     }else{
             alert("els mes no existeix")
