@@ -10,7 +10,7 @@ function palindrom(paraula){
 
     var resposta="Error inesperat";
     var lletres=paraula.split("").join("").split("");
-    var revers=lletres.reverse().slice(0);
+    var revers=lletres.slice(0).reverse();
 
 
 for(i in lletres){    
