@@ -19,7 +19,7 @@ alert("Ara si");
    
     var i=prompt("Escriu una paraula");
     var espais=i.split("");
-var senseEspais="";
+    var senseEspais="";
 
 for (i in espais){
 
