@@ -1,5 +1,10 @@
 
 
+resposta();
+
+
+
+function resposta(){
 
 var numero=prompt("entra un número enter");   
 var resultat= parell_imparell(numero);
@@ -7,7 +12,7 @@ var resultat= parell_imparell(numero);
 var str= "El numero:"+numero+" es "+resultat;
 alert(str);
        
-
+}
 
 
 
