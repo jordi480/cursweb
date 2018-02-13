@@ -19,7 +19,8 @@ function canvia()
 {    
     var elemento = document.getElementById("contenidos_1");
     elemento.className = "oculto";
-    var enlace = document.getElementById("enlace_1");    
+    var enlace = document.getElementById("enlace_1");   
+    enlace.innerText = "Mostrar texto";
    
    
     
