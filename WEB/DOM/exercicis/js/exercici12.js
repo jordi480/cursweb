@@ -6,8 +6,8 @@ window.addEventListener('load',cargaEventos);
 
 function cargaEventos(){
 
-    document.getElementById("texto").addEventListener("click",  );
-    document.getElementById("adicional").addEventListener("click",  );
+    document.getElementById("enlace").addEventListener("click",muestra);
+  //  document.getElementById("adicional").addEventListener("click",muestra);
    
 
 }
@@ -23,7 +23,7 @@ function muestra()
    
     var enlace = document.getElementById("enlace");
     enlace.className = "oculto";
-    
+    elemento.style.color="red";
    
 
   }
