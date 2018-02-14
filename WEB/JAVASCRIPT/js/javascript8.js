@@ -18,7 +18,7 @@ function enviar(){
 
     else{
 
-        alert("El formulari no s'ha enviat")
+        alert("El formulari no s'ha enviat");
         return false;
     }
    
