@@ -1,0 +1,94 @@
+﻿
+
+div#cont{
+
+	width: 90%;
+	display: flex;
+	flex-flow: column;
+}
+
+div#titol p{
+	display:flex;
+	color:white;
+	
+	
+}
+
+div#cont1{
+	display: flex;
+	flex-flow: row;
+	margin: 5px;
+	width: 98%
+}
+aside#dret{
+	width: 30%;
+	margin: 5px;
+	flex-grow: 1;
+	background-color: blueviolet;
+}
+aside#esqu{
+	width: 30%;
+	flex-flow: 1;
+	margin: 5px;
+	background-color: blue;
+}
+
+article{
+	width: 30%;
+	margin: 5px;
+	padding: 1%;
+	flex-grow: 1;
+	background-color: brown;
+}
+
+header{
+display:flex;
+	
+width: 98%;	
+height:200px;
+border-top-left-radius: 20px 20px;
+border-top-right-radius: 20px 20px;
+align-content: center;
+align-content: flex-end;
+background-image: url("../imatges/fons1.jpg");
+background: linear-gradient();
+flex-flow: column;
+
+}
+a {
+
+	border-style:solid black; 
+	padding: 1px;
+	margin: 4px;
+}
+
+
+
+div{
+	border: 3px white;
+	flex-grow:1;
+	align-items: center;
+}
+
+div a{
+	border: 3px white;
+	width: 33%;
+	color: white;
+	flex-grow:1;
+	
+}
+
+nav  {
+	width: 98%;
+	height:40px;
+	background-color: rgb(5, 5, 51);
+	display: flex;
+	flex-flow: row;	
+	align-content: center;
+	margin: 2px;
+
+	
+}
+
+
+
