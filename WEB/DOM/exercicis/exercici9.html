@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="css/exercici9.css" rel="stylesheet" type="text/css">
     <script  type="text/javascript" src="js/exercici9.js"></script>
+
  
      <title>Formularis</title>    
     
@@ -12,12 +13,12 @@
 </head>
 
 
-<body>
+<body id="body">
 
     <h1>Formulari d'alta</h1>
 
  <div id="nom">
-    <form method="post" id="nom" action="http://daw.iesjoaquimmir.cat/sarti.php" enctype="multipart/form-data">  
+    <form method="post" id="nom">  
         <fieldset>   
         <h3>Noms i cognoms<span>*</span></h3>
     
@@ -37,102 +38,107 @@
    
 
             <div id="direccio">
-                    <form method="post" id="direccio">  
+                    <form method="post" id="direccio" name="direccio">  
                         
                             <fieldset><h3>Direcció<span>*</span></h3>
                     
                         
                             <input type="text" id="carrer" name="carrer" >
                             <label for="carrer">carrer, num,pis,porta</label>
-            <div id="cod">
-                            <input type="text" id="codi" name="codi" >
-                            <label for="codi">Codi postal</label>
-            </div>
-            <div id="mu">
-                            <input type="text" id="mun" name="mun">    <label for="mun">municipi</label>         
+                    <div id="cod">
+                                    <input type="text" id="codi" name="codi" >
+                                    <label for="codi">Codi postal</label>
+                    </div>
+                <div id="mu">
+                                <input type="text" id="mun" name="mun">    <label for="mun">municipi</label>         
 
-                           
-            </div>  
-            <div id="pr">
                             
-                           
-                           <select name="provincia" id="pro">
-                            <option value="-1"></option>  
-                            <option>Barcelona</option>
-                            <option >Tarragona</option>
-                            <option>Lleida</option>
-                            <option>Girona</option>
+                </div>  
+                <div id="pr">
+                                
+                            
+                            <select name="provincia" id="pro">
+                                <option value="-1"></option>  
+                                <option>Barcelona</option>
+                                <option >Tarragona</option>
+                                <option>Lleida</option>
+                                <option>Girona</option>
 
-                        </select>
-                            <label for="prov">Provincia</label>
-                            
-                        </div>   
-                        <div id="pa">
-                            <select name="pais" id="pai">
-                                <option value="-1"></option>
-                                <option>Regne unit</option>
-                                <option >Alemanya</option>
-                                <option>França</option>
-    
                             </select>
-                            <label for="pais">Pais</label>
-                        </div>      
-                        </fieldset>   
-                    </form>
-                
-            </div>        
+                                <label for="prov">Provincia</label>
+                                
+                            </div>   
+                            <div id="pa">
+                                <select name="pais" id="pai">
+                                    <option value="-1"></option>
+                                    <option>Regne unit</option>
+                                    <option >Alemanya</option>
+                                    <option>França</option>
+        
+                                </select>
+                                <label for="pais">Pais</label>
+                            </div>      
+                            </fieldset>   
+                        </form>
+                    
+                </div>        
 
 
-         <div id="email">
-            
-     
-                        <form method="post" id="email"> 
-                           <fieldset>
-                            <h3>Email<span>*</span></h3>                            
-                                    
-                                    <input type="text" id="email" name="nom" placeholder="el teu email..">
-                                    <label for="nom">Email</label>
+            <div id="email">
                 
-                                </fieldset> 
-                                    
+        
+                            <form method="post" id="email"> 
+                            <fieldset>
+                                <h3>Email<span>*</span></h3>                            
+                                        
+                                        <input type="text" id="email" name="email" placeholder="el teu email..">
+                                        <label for="nom">Email</label>
+                    
+                                    </fieldset> 
+                                        
+                                
+                                </form>
+                    
+                                
                             
-                            </form>
-                
-                            
+                            </div>
+        <div id="tel">
+
+                <form method="post" id="tel">
+
+                    <fieldset>
                         
-                        </div>
-    <div id="tel">
+                        
+                        <h3>Telèfon<span>*</span></h3>
 
-             <form method="post" id="tel">
+                    <div id="mo">
+                        <input type="text" id="mob" name="mob">
+                        <label for="nom">Mòbil</label>
+                    </div>
 
-                <fieldset>
-                    
-                    
-                    <h3>Telèfon<span>*</span></h3>
+                    <div id="fi">
+                        
+                        <input type="text" id="fix"name="fix"> 
+                        <label for="nom">Fixe</label>
+                    </div> 
 
-                <div id="mo">
-                    <input type="text" id="mob" name="mob">
-                    <label for="nom">Mòbil</label>
-                </div>
+                            </fieldset>
 
-                <div id="fi">
-                    
-                    <input type="text" id="fix"name="fix"> 
-                    <label for="nom">Fixe</label>
-                </div> 
+                        </form>
 
-                        </fieldset>
-
-                    </form>
-
-     </div>
+        </div>
      <hr>
 
-     <div id="boto">
+        <div id="boto">
 
-     <button id="enviar"type="button">Donar-me d'alta --></button>
+        <button type="button" id="enviar">Donar-me d'alta --></button>
 
-    </div>
+        </div>
+        <div id="boto1">
+            
+            <button type="button" id="canvi">Canvia a Vermell</button>
+    
+        </div>
 
     <img id="foto" src="imatges/foto.jpg" alt="">
 
