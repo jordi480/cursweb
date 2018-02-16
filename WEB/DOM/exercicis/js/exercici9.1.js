@@ -12,17 +12,13 @@ function cargaEventos(){
 
 
 
-
-
-
-
-
 function enviar(){
 
 
     var resposta=confirm("Estas segur d'enviar-ho?")
 
     if(resposta){
+
        document.formulari.submit();
         return true;
     }
@@ -42,8 +38,8 @@ function comprovar(){
  if (comprova==""){
 
     alert("has de posar el teu email");
-    var fons=document.getElementById("email");
-    document.formulari.fons.focus();
+    document.getElementById("email");
+    document.formulari.email.focus();
     fons.style.background="red";
 
  }
