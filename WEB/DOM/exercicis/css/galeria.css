@@ -6,41 +6,58 @@ header {
   border: 1px solid black;
   margin: 10px;
   padding: 10px;
+  justify-content: center;
+}
+div#contenidor{
+display: flex;
+justify-content: center;
+
+
 }
 h1{
 	color:blue;
 }
+img{
+
+  width:100px;
+   height: 80px;
+}
 
 div#motos{
-    width: 300px;
-    height: 200px;
+    width: 90%;
     display:flex;
-    
-
-    
-
+    justify-content: center;
 }
+div#fotoGran{
+
+  width: 500px;
+  height: 400px;
+  background-color: aqua;
+  border:solid black;
+}
+
 div#moto1{
-   
-   width: 100px;
+ 
+  
+  
 }
 div#moto2{
+  
    
    
 }
 div#moto3{
-    
+ 
     
 }
 div#moto4{
-    
+ 
    
 }
 div#moto5{
-    
+ 
     
 }
 div#moto6{
-    
-    
+ 
 }

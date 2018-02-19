@@ -5,15 +5,20 @@ window.addEventListener('load',cargaEventos);
 
 function cargaEventos(){
 
-   /*   var botons = document.querySelectorAll("div button");
-    for (i=0;i<botons.length;i++){
-        botons[i].addEventListener("click",canviar_titol);
-    }*/
-
-      
+     var carregaMotos = document.querySelectorAll("div img");
+    for (i=0;i<carregaMotos.length;i++){
+        carregaMotos[i].addEventListener("click",canviar_motos);
+   
+     
    
 
-
+    }
 }
 
+
+function canviar_motos(){
+
+    console.log(this.id);
+
+}
 
