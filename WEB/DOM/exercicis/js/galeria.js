@@ -5,9 +5,9 @@ window.addEventListener('load',cargaEventos);
 
 function cargaEventos(){
 
-     var carregaMotos = document.querySelectorAll("div img");
-    for (i=0;i<carregaMotos.length;i++){
-        carregaMotos[i].addEventListener("click",canviar_motos);
+     var carregaMotos = document.getElementsByTagName("img");
+     for (i=0;i<carregaMotos.length;i++){
+        carregaMotos[i].addEventListener("click",canviar_fotos);
    
      
    
@@ -16,9 +16,11 @@ function cargaEventos(){
 }
 
 
-function canviar_motos(){
+function canviar_fotos(){
 
-    console.log(this.id);
+    //console.log(this.innerHTML);
+    document.getElementById("fotoGran").innerHTML=this.outerHTML;
+
 
 }
 

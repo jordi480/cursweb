@@ -3,61 +3,80 @@ body, html {
   height: 98%;
 }
 header {
-  border: 1px solid black;
   margin: 10px;
   padding: 10px;
+  display: flex;
   justify-content: center;
 }
+div#titol{
+  margin: 10px;
+  padding: 10px;
+}
 div#contenidor{
-display: flex;
-justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 
 
 }
 h1{
-	color:blue;
+	color:rgb(255, 13, 13);
 }
-img{
+div img{
+  width:120px;
+  height: 90px;
+}
 
-  width:100px;
-   height: 80px;
-}
+
 
 div#motos{
-    width: 90%;
-    display:flex;
-    justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+  display:flex;
+  justify-content: center;
 }
 div#fotoGran{
-
   width: 500px;
   height: 400px;
-  background-color: aqua;
+  background-color: rgb(253, 253, 253);
   border:solid black;
 }
 
-div#moto1{
- 
-  
-  
+div#moto1{ 
+  width: 120px;
+  height: 90px;
+  margin: 10px;  
+
 }
 div#moto2{
-  
-   
-   
+  width: 120px;
+  height: 90px;
+  margin: 10px;
+ 
 }
 div#moto3{
- 
-    
+  width: 120px;
+  height: 90px;
+  margin: 10px; 
+
 }
-div#moto4{
- 
-   
+div#moto4{ 
+  width: 120px;
+  height: 90px;
+  margin: 10px;  
+
 }
-div#moto5{
- 
-    
+div#moto5{ 
+  width: 120px;
+  height: 90px;
+  margin: 10px; 
+
 }
 div#moto6{
- 
+  width: 120px;
+  height: 90px;
+  margin: 10px; 
+
 }
