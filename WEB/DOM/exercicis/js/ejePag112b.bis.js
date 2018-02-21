@@ -2,6 +2,8 @@ window.addEventListener('load', cargaEventos);
 
 function cargaEventos(){
     document.getElementById("tarea").setAttribute("onKeyDown","return limita(10);");
+    document.getElementById("tarea").setAttribute("onKeyUp","return limita(10);");
+
 }
 
 function limita(maximoCaracteres) {

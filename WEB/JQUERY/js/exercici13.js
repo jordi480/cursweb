@@ -1,19 +1,30 @@
+$(document).ready(function(){
+  $("#afegeix").click(function(){
+   $('ul').append("<li>Element nou</li>");
+      
+  });
+
+  $("#esborra").click(function(){
+    $('li').remove();
+      
+  });
 
 
 
-window.addEventListener('load',cargaEventos);
+});
+
+
+
+/*  window.addEventListener('load',cargaEventos);
 
 
 function cargaEventos(){
 
     document.getElementById("afegeix").addEventListener("click",afageix);
     document.getElementById("esborra").addEventListener("click",esborra);
-
-  
-   
+ 
 
 }
-
 
 function afageix() {
 
@@ -47,3 +58,5 @@ function esborra(){
 
 
 }
+
+*/
