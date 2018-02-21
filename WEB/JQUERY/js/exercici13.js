@@ -1,11 +1,11 @@
 $(document).ready(function(){
   $("#afegeix").click(function(){
-   $('ul').append("<li>Element nou</li>");
+   $('ul').append('<li class="nou">Element nou</li>');
       
   });
 
   $("#esborra").click(function(){
-    $('li').remove();
+    $('.nou').remove();
       
   });
 
