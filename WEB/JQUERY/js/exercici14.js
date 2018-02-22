@@ -1,7 +1,15 @@
 
 
+$(document).ready(function(){
+    $("a").click(function(){        
+        $(this).prev().toggle('slow'); 
 
-window.addEventListener('load',cargaEventos);
+    })
+})
+
+
+
+/* window.addEventListener('load',cargaEventos);
 
 
 
@@ -110,5 +118,5 @@ function amaga3(){
         mostra3(elemento);
     }
     
-}
+} */
 

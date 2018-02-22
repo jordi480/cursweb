@@ -5,7 +5,11 @@ $(document).ready(function(){
   });
 
   $("#esborra").click(function(){
-    $('.nou').remove();
+    var element=$('li');
+    console.log(element);
+    darrer=element[element.length-1];
+    console.log(darrer);
+    darrer.remove();
       
   });
 
