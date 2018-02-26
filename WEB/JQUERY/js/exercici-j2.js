@@ -3,7 +3,13 @@
 
 $(document).ready(function(){
     $("input").on("click",function(){
-            $("#formulari").load("html/opció1.html #carrer");
+        console.log($(this).val());
+        if (this.value =="Op1"){
+            $("#contingut").load("html/opció1.html");
+        } else{
+            $("#contingut").load("html/opció2.html");
+        }
+           
      });
 }); 
 
