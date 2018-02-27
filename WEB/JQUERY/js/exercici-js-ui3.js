@@ -3,7 +3,7 @@
 
 $(document).ready(function(){   
        
-    $( function() {
+  
         $( function() {
             $( "#datepicker" ).datepicker();
             $( "#anim" ).on( "change", function() {
@@ -12,7 +12,7 @@ $(document).ready(function(){
           } );
         $( "#datepicker" ).datepicker({ minDate: -20, maxDate: "+1W " });
       } );
-          } );
+          
           
            
     

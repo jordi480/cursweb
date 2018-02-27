@@ -9,6 +9,7 @@ $(document).ready(function(carregaEvents){
       $( "#accordion" )
       .accordion({
         header: "> div > h3",
+        heightStyle:"content",
         collapsible:true
       })
       .sortable({
