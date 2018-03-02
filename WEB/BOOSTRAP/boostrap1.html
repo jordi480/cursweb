@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Bootstrap</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script  src="js/boostrap1.js"></script>
+  <link href="css/boostrap1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
 <div class="container">
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-default ">
                 <div class="container-fluid">
-                  <div class="navbar-header">
+                  <div class="navbar-header ">
                     <a class="navbar-brand" href="#">Nom del lloc web</a>
                   </div>
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                  
+                  <ul class="nav navbar-nav" >
                     <li><a href="#">item 1</a></li>
                     <li><a href="#">item 2</a></li>
                   </ul>
@@ -28,8 +30,54 @@
                     </div>
                     <button type="submit" class="btn btn-default">Submit</button>
                   </form>
-                  
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span id="login" class="glyphicon glyphicon-log-in"data-toggle="modal" data-target="#myModal"></span> Login</a></li>      
+                                  
+                 </ul>
+                 <!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+         <h2>Iniciar sessió</h2>
+        <div class="form-group">
+            <div id="alert"class="alert alert-warning">
+                <strong>Atenció!</strong> Has d'entrar la informació correctament !!!
+              </div>
+          <div class="col-sm-10">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+           
+          </div>
+        </div>
+        <div class="form-group">
+          
+          <div class="col-sm-10"> 
+            <label id="password"class="control-label col-sm-2" for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+          </div>
+        </div>
+        <div class="form-group"> 
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+             <!-- <label><input type="checkbox"> Remember me</label>-->
+            </div>
+          </div>
+        </div>
+        <div class="form-group"> 
+          <div class="col-sm-offset-2 col-sm-10">
+            <button id="envia"type="submit" class="btn btn-default">Enviar</button>
+            <button type="button" class="btn btn-default " data-dismiss="modal">Tanca</button>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
                 </div>
+                
               </nav> 
 
         <div class="jumbotron" style=background-color:darkgreen>
@@ -47,8 +95,8 @@
                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
                     venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
                     Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, 
-                    consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+                    consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+                    <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
                     Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
                     Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
                     sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
@@ -74,8 +122,8 @@
                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
                     venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
                     Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, 
-                    consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+                    consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+                    <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
                     Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
                     Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
                     sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
