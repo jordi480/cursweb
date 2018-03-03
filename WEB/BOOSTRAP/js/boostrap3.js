@@ -1,16 +1,18 @@
-/*
+
 
 $(document).ready(function(){
 
     $(".btn").on("click",function(){
-        $this.
-
+        var parraf=$(this).parent().text();
+        console.log(parraf);
+        $(".modal-body").text(parraf).valueS;
+        
     });
 
 });
-*/
 
-$(document).ready(function(){
+
+/* $(document).ready(function(){
 
     $('#myModal').on('shown.bs.modal', function (e) {
         console.log(e.relatedTarget);
@@ -18,4 +20,5 @@ $(document).ready(function(){
     });
 
 
-});
+}); */
+
