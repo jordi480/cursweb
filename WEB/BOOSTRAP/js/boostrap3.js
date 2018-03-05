@@ -3,9 +3,12 @@
 $(document).ready(function(){
 
     $(".btn").on("click",function(){
+        
         var parraf=$(this).parent().text();
         console.log(parraf);
-        $(".modal-body").text(parraf).valueS;
+        $("#texto").text(parraf).get();
+        
+
         
     });
 
