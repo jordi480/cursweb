@@ -2,11 +2,9 @@
 
 $(document).ready(function(){
 
-    $(".btn").on("click",function(){
+    $("#contacte").on("click",function(){
         
-        var parraf=$(this).parent().text();
-        console.log(parraf);
-        $("#texto").text(parraf).get();
+       $("#contingut").load("html/formulari.html #container");
         
 
         
