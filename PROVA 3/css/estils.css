@@ -38,8 +38,8 @@
     background-image: url("../img/correo.png");
   }
 
-  .prom:hover,.subs:hover,.diag:hover{
-    
+  .prom:hover,.subs:hover{
+    font-size: 150%;
   
     color: red;
    
@@ -52,6 +52,10 @@
   .diag:hover{
     font-size: 150%;
     color: green;
+  }
+
+  .ent:hover{
+    font-size: 200%;
   }
 
 
