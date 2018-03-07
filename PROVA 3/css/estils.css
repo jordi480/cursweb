@@ -1,98 +1,68 @@
- /*estils primera imatge*/
- h1,h2,h3,h4{
-    padding: 0px;
+#foto{
+
+    width: 290px;
+    height: 210px;
+    padding:5px; 
+    margin: 5px;
+    border-style: solid;
+    border-color:black;
+}
+#text{
     margin: 0px;
-}
-
-.caption-style-4{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    
-}
-
-.caption-style-4 .efecto{
-    float: left;
-    padding: 0px;
-    position: relative;
-    overflow: hidden;
-}
-
-.caption-style-4 .efecto:hover .caption{
-    opacity: 1;
-}
-
-.caption-style-4 .efecto:hover img{
-    opacity: 1;
-    transform: scale(1.15,1.15);
-    -webkit-transform:scale(1.15,1.15);
-    -moz-transform:scale(1.15,1.15);
-    -ms-transform:scale(1.15,1.15);
-    -o-transform:scale(1.15,1.15);
-}
-
-
-.caption-style-4 img{
-    margin: 0px;
-    padding: 0px;
-    float: left;
-    z-index: 4;
-}
-
-
-.caption-style-4 .caption{
-    cursor: pointer;
-    position: absolute;
-    opacity: 0;
-    -webkit-transition:all 0.45s ease-in-out;
-    -moz-transition:all 0.45s ease-in-out;
-    -o-transition:all 0.45s ease-in-out;
-    -ms-transition:all 0.45s ease-in-out;
-    transition:all 0.45s ease-in-out;
-}
-
-.caption-style-4 img{
-    -webkit-transition:all 0.25s ease-in-out;
-    -moz-transition:all 0.25s ease-in-out;
-    -o-transition:all 0.25s ease-in-out;
-    -ms-transition:all 0.25s ease-in-out;
-    transition:all 0.25s ease-in-out;
-}
-.caption-style-4 .blur{
-    background-color: rgba(0,0,0,0.65);
-    height: 300px;
-    width: 400px;
-    z-index: 5;
-    position: absolute;
-}
-
-.caption-style-4 .caption-text h1{
-    text-transform: uppercase;
-    font-size: 24px;
-}
-.caption-style-4 .caption-text{
-    z-index: 10;
-    color: #fff;
-    position: absolute;
-    width: 400px;
-    height: 300px;
+    padding: 42px 0 25px 0;
+    display:block;
     text-align: center;
-    top:100px;
+     
+}
+#map {
+    height: 400px;
+    width: 100%;
+   }  
+
+
+.tel {
+  
+  background-repeat: no-repeat;
+  background-image: url("../img/telefon.png");
+  
+  }
+ .face {
+    display:none;
+    background-repeat: no-repeat;
+    background-image: url("../img/facebook.jpg");
+  }
+
+  .contacte {
+    display:none;
+    background-repeat: no-repeat;
+    background-image: url("../img/correo.png");
+  }
+
+  .prom:hover,.subs:hover,.diag:hover{
+    
+  
+    color: red;
+   
+  }
+
+  .in:hover{
+
+    font-size: 150%;
+  }
+  .diag:hover{
+    font-size: 150%;
+    color: green;
+  }
+
+
+
+#peuDalt,#peuBaix,#contingut{
+
+    padding:5px; 
+    margin: 20px;
+
 }
 
-
-
-
-
-/*estils segona imatge*/
-
-
-/*efecto 2 */
-#fotos2{
-clear:both;
-width: 400px;
-
-}
 img {
     width: 100%;
 }
@@ -100,7 +70,7 @@ img {
 figure {
     margin: 0;
     padding: 0;
-    height: 300px;
+    height: 210px;
     position: relative;
     display: block;
     cursor: pointer;
@@ -156,7 +126,7 @@ figcaption h3 {
     position: relative;
     left: 100%;
     margin-top: 37px;
-    font-size: 30px;
+    font-size: 15px;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
@@ -173,7 +143,7 @@ figcaption p {
     font-family: 'Open sans';
     padding: 10px 20px;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 10px;
     position: relative;
     left: 100%;
     font-size: 13px;
@@ -204,3 +174,6 @@ figcaption a:hover {
     color: #4f5856;
     background: #fff;
 }
+
+
+

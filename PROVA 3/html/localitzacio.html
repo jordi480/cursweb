@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Formulari</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script  src="js/javascript.js"></script>
+  <link href="css/estils.css" rel="stylesheet" type="text/css">
+</head>
+  <body>
+    <h3>ENS TROBEM AQUI</h3>
+    <div id="map"></div>
+    <script>  
+      function initMap() {
+        var uluru = {lat: 41.223886, lng: 1.732252};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+      function initMap() {
+  var uluru = {lat: 41.223886, lng:  1.732252};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center: uluru
+  });
+
+  var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">LA MEDICINA ESTETICA LAGO</h1>'+
+      '<div id="bodyContent">'+
+      '<p><b>LA MEDICINA ESTETICA LAGO</b>,oferim els últims avanços en medicina estètica a les nostres 5 clíniques de làrea metropolitana de Barcelona, amb la confiança de més de 35.000 pacients des de 1983. èxit dels nostres tractaments es basa en la qualitat dels nostres professionals, equips i instal·lacions. A Medicina Estètica Lago estem compromesos amb la teva salut i el teu benestar. Som ESPECIALISTES EN RESULTATS</p>'+
+      ' '+
+      '(last visited June 22, 2009).</p>'+
+      '</div>'+
+      '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+    title: 'Uluru (Ayers Rock)'
+  });
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAr6PXVGRNMMSQy7FdZJzEMCDssPynzEnQ&callback=initMap">
+    </script>
+  </body>
+</html>
+
